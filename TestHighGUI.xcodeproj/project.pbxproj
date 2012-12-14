@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0940EDA3167B84BE00CA303C /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940EDA0167B84BE00CA303C /* libc++.1.dylib */; };
+		0940EDA4167B84BE00CA303C /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940EDA1167B84BE00CA303C /* libc++.dylib */; };
+		0940EDA5167B84BE00CA303C /* libc++abi.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0940EDA2167B84BE00CA303C /* libc++abi.dylib */; };
 		097135D9162D634E000AB1EA /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 097135D8162D634E000AB1EA /* opencv2.framework */; };
 		097135DC162D638D000AB1EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 097135DB162D638D000AB1EA /* Default-568h@2x.png */; };
 		5C7F9BF015D6D6C90062EA0F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C7F9BEF15D6D6C90062EA0F /* UIKit.framework */; };
@@ -29,6 +32,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0940EDA0167B84BE00CA303C /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "usr/lib/libc++.1.dylib"; sourceTree = SDKROOT; };
+		0940EDA1167B84BE00CA303C /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		0940EDA2167B84BE00CA303C /* libc++abi.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++abi.dylib"; path = "usr/lib/libc++abi.dylib"; sourceTree = SDKROOT; };
 		097135D8162D634E000AB1EA /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../openCV_Dev/ios/opencv2.framework; sourceTree = "<group>"; };
 		097135DB162D638D000AB1EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5C7F9BEB15D6D6C90062EA0F /* TestHighgui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestHighgui.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0940EDA3167B84BE00CA303C /* libc++.1.dylib in Frameworks */,
+				0940EDA4167B84BE00CA303C /* libc++.dylib in Frameworks */,
+				0940EDA5167B84BE00CA303C /* libc++abi.dylib in Frameworks */,
 				5C7F9C2215D70C570062EA0F /* QuartzCore.framework in Frameworks */,
 				5C7F9C2015D70C1A0062EA0F /* CoreVideo.framework in Frameworks */,
 				5C7F9C1B15D70BEE0062EA0F /* Accelerate.framework in Frameworks */,
@@ -81,6 +90,9 @@
 		5C7F9BE015D6D6C90062EA0F = {
 			isa = PBXGroup;
 			children = (
+				0940EDA0167B84BE00CA303C /* libc++.1.dylib */,
+				0940EDA1167B84BE00CA303C /* libc++.dylib */,
+				0940EDA2167B84BE00CA303C /* libc++abi.dylib */,
 				097135DB162D638D000AB1EA /* Default-568h@2x.png */,
 				5C7F9C1215D6D9A50062EA0F /* shared */,
 				5C7F9BF515D6D6C90062EA0F /* TestHighgui */,
